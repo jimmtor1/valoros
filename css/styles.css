@@ -114,7 +114,7 @@ body{
 
 .container_inicial_izquierdo{
     width: 50%;
-    color: white;
+    color: #FAFAFA;
     height: auto;
     margin: 0 0;
     padding: 0 0;
@@ -122,8 +122,12 @@ body{
 }
 
 .izq_superior{
-    height: 50%;
-    /*background: red;*/
+    height: 50%;    
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 1px;
+    background: var(--black2);
     /*    padding: 0 0;
         margin: 0 0;
         margin-top: 0px;*/
@@ -141,7 +145,8 @@ body{
 
 .izq3{
     width: 50%;
-    /*height: 100%;*/
+    display: flex;
+    align-items: center;
 }
 
 
@@ -223,6 +228,10 @@ body{
     font-size: 45px;
     font-weight: 400;
     color: #FFF;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /*padding-top: 20%;*/
 }
 
 
@@ -703,7 +712,7 @@ body{
 
     .title{
         /*margin-top: 10px;*/
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .links{
@@ -803,6 +812,13 @@ body{
         padding: 60px 0;
     }
 
+    .izq_superior{
+        height: 50%;        
+        align-items: center;
+        justify-content: space-around;
+        display: flex;        
+    }
+
     .nav_container{     /*Coloca el encabezado con el menu distribuido en medio*/
         flex-wrap: wrap;
         flex-direction: column;
@@ -827,19 +843,13 @@ body{
 
     .container_inicial_izquierdo{
         width: 100%;
-        height: 50%;
-    }
-
-    .container_inicial_izquierdo{
-        height: 500px;
+        height: 500px;        
     }
 
     .logo_img{
         width: 40%;
         min-width: 130px;
     }
-
-
 
     .container_inicial{
         flex-direction: column-reverse;
@@ -853,10 +863,6 @@ body{
     .container-carrusel{
         width: 100%;
         height: auto;
-    }
-
-    .container_inicial_izquierdo{
-        width: 100%;
     }
 
     .links{
@@ -947,6 +953,8 @@ body{
         width: 100%;
         padding: 30px 0;
     }
+    
+   
 
 }
 
@@ -1020,7 +1028,7 @@ body{
         padding: 5px;
         font-size: 18px;
     }
-    
+
     .container_inicial_izquierdo{
         height: 350px;
     }
